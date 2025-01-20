@@ -325,3 +325,59 @@ button {
 .button:focus {
   background-color: #1c8fa9;
 }
+
+.artboard {
+  height: calc(100vh - 50px - 55px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.canvas {
+  height: 57.5vh;
+  width: 48.6vw;
+  position: relative;
+  border: 1px solid #fff;
+  border-radius: 3px;
+}
+
+.canvas__bg-img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  opacity: 0.15;
+}
+
+.canvas__fg-img {
+  height: 75%;
+  width: 78%;
+  object-fit: cover;
+  border-radius: 3px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid #fff;
+}
+
+.canvas__circle {
+}
+.canvas__circle:nth-of-type(1) {
+}
+
+.canvas__circle:nth-of-type(2) {
+}
+.canvas__circle:nth-of-type(3) {
+}
+.canvas__circle:nth-of-type(4) {
+}
+
+.tools {
+  height: 57.5vh;
+}
+
+.tool {
+}
+
+.tool__icon {
+}
